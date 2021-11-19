@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h1 class="text-center">UVS Tasks</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="list-group">
+              <a routerLink="/obuoliu-skaiciuokle" class="list-group-item list-group-item-action"
+                routerLinkActive="active">Obuolių skaičiuoklė</a>
+              <a routerLink="/oru-prognoze" class="list-group-item list-group-item-action"
+                routerLinkActive="active">Orų prognozė</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

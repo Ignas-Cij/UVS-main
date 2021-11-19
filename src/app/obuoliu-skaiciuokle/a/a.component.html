@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header">Obuolių skaičiuoklė (component A)</div>
+    <div class="card-body">
+        <div class="mb-3">
+            <label for="form-label">Vieną obuolį suskaičiuoti užtrunka per: (Įveskite skaičių žemiau langelyje)</label>
+            <input type="number" class="form-control" [(ngModel)]="x">
+        </div>
+        <div class="mb-3">
+            <label for="form-label">Kiek obuolių suskaičiuos per: (Įveskite skaičių žemiau langelyje)</label>
+            <input type="number" class="form-control" [(ngModel)]="t">
+        </div>
+        <button class="btn btn-success mb-3" (click)='skaiciuotiObuolius()'>Skaičiuoti</button>
+    </div>
+</div>
+
